@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+	background-image: url("img/top_backg.jpg");
+	background-attachment: fixed;
+	color: white;
+	text-shadow: 0 0 18px black;
+}
+
+.top{
+	padding-top: 230px;
+	margin-top: 0px;
+	text-align: center;
+	font-family: "Old English Text MT", sans-serif;
+	font-size: 40px;
+	min-height: 400px;
+}
+
+.top h2{
+	margin: 0px;
+}
+
+.content .list li{
+	margin: 10px 10px;
+	list-style: none;
+	margin-left: -35px
+}
+
+.list{
+	position: relative;
+	font-family: "Calibri";
+	text-align: center;
+}
+
+.content h2::before, .content h2::after{
+	content: '';
+	height: 1px;
+	width: 44%;
+	position: relative;
+	background-color: #fff;
+	display: inline-block;
+	bottom: 8px;
+}
+
+.content h2::before{
+	left: 0;
+}
+
+.content h2::after{
+	right: 0;
+}
+.content h2 span{
+	margin:0 10px;
+}
+
+.content h2{
+	text-align: center;
+}
+
+.row{
+	text-align: center;
+}
+
+.column{
+	display: inline-block;
+	padding: 15px;
+}
+
+.column p{
+	font-size: 25px;
+}
+
+.column img{
+	transition: 0.3s 0s ease;
+	box-shadow: 0 0 18px white;
+}
+
+.column img:hover{
+	transform: scale(1.1);
+}
